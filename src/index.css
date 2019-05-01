@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(assets/fonts/Raleway-Regular.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(assets/fonts/Raleway-Bold.ttf);
+    font-weight: 800;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+    padding: 2.5%;
+    font-family: Raleway-Regular;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Raleway-Bold;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
